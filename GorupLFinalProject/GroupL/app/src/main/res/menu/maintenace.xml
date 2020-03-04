@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_settings_id">
+
+
+        <item  android:id="@+id/resolving"
+            android:title="SHOW RESOLVED REPORTS"
+            android:icon="@drawable/shop"/>
+        <item
+            android:id="@+id/unresolved"
+            android:title="SHOW UNRESOLVED REPORTS"
+            android:icon="@drawable/report"/>
+        <item
+            android:id="@+id/deletemaintenance"
+            android:title="Delete Maintenance Report"
+            android:icon="@drawable/report"/>
+        <item
+            android:id="@+id/pdf"
+            android:title="Create Pdf for Reports"
+            android:icon="@drawable/report"/>
+
+
+    </group>
+
+</menu>

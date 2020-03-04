@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    #0000FF
+    <color name="TextColor">#3e3c3c</color>
+    <color name="gray">#808080</color>
+    <color name="colorPrimary">#d9a026</color>
+    <color name="colorPrimaryDark">#c18f4f</color>
+    <color name="LISTVIEW">#a76a23</color>
+    <color name="colorAccent">#e4a423</color>
+    <color name="dialog">#5e5c56</color>
+    <color name="mainAcColore">#99DCB2</color>
+    <color name="textcolo">#f9fafa</color>
+    <color name="textcorlig">#d9a026</color>
+    <color name="moveingtext">#a36c25</color>
+    <color name="yelloback">#9e8c07</color>
+    <color name="backi">#ec0817</color>
+    <color name="btn_color">#1baaac</color>
+    <color name="tv_color">#000000</color>
+    <color name="white">#fdfbfc</color>
+
+    <color name="splash">#fcfafa</color>
+    <color name="ab_background">#eab9b9</color>
+    <color name="spots_dialog_color">@android:color/holo_red_light</color>
+</resources>

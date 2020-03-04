@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pdflearner"
+        android:title="Create Pdf for Learner"
+        />
+    <item
+        android:id="@+id/showreolvedL"
+        android:title="Resolved Reports"
+        />
+    <item
+        android:id="@+id/showunreolvedL"
+        android:title="UnResolved Reports"
+        />
+    <item
+        android:id="@+id/deleteall"
+        android:title="Delete All Repots"
+        />
+</menu>

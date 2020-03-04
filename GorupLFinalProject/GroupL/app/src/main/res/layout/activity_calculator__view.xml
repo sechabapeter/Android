@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculator__view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sechaba.groupl.Calculator_View">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/btn_10c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customise_btn"
+            android:id="@+id/btn_10c"
+            android:layout_weight="1"
+            android:onClick="bn10c" />
+
+        <Button
+            android:text="@string/btn_20c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customise_btn"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_20c"
+            android:layout_weight="1"
+            android:onClick="bn10c" />
+
+        <Button
+            android:text="@string/btn_50c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/customise_btn"
+            android:id="@+id/btn_50c"
+            android:layout_weight="1"
+            android:onClick="bn10c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/btn_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_r1"
+            android:background="@drawable/customise_btn"
+            android:layout_weight="1"
+            android:onClick="bn10c" />
+
+        <Button
+            android:text="@string/btn_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customise_btn"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_r2"
+            android:layout_weight="1"
+            android:onClick="bn10c" />
+
+        <Button
+            android:id="@+id/btn_r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/customise_btn"
+            android:onClick="bn10c"
+            android:text="@string/btn_r5" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:ems="10"
+        android:textSize="20dp"
+        android:id="@+id/et_calc_val" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/btn_submit_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customise_btn"
+            android:id="@+id/btn_submit_tansac"
+            android:layout_weight="1"
+            android:onClick="submtTransaction" />
+
+        <Button
+            android:text="@string/btnreset_transction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/customise_btn"
+            android:id="@+id/button11"
+            android:layout_weight="1"
+            android:onClick="resetTransaction" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/tv_current_bal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cur_transac"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textSize="20dp"
+            android:id="@+id/et_current_bal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/tv_current_transac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_current_transac"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_cur_transaction"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/tv_after_transac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_after_transac"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_after"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

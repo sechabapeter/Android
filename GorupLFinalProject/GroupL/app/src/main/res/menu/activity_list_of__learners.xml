@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Add_learner"
+        android:title="Create New Learner"
+        app:showAsAction="always"
+        android:icon="@mipmap/addusers"/>
+
+    <group android:id="@+id/group_settings_id">
+
+
+        <item  android:id="@+id/shop"
+            android:title="Tuck Shop"
+            android:icon="@drawable/shop"/>
+        <item
+            android:id="@+id/reportMain"
+            android:title="Maintenance Report"
+            android:icon="@drawable/report"/>
+
+
+    </group>
+
+</menu>

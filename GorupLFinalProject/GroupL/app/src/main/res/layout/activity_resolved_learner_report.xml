@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.example.sechaba.groupl.ResolvedLearnerReport">
+    <TextView
+        android:id="@+id/titleL"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/statusLearn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/titleL"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/submitreportchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/customise_btn"
+        android:text="SAVE CHANGED TO RESOLVE"
+        android:onClick="resolvedreport"
+        android:layout_below="@+id/statusLearn"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

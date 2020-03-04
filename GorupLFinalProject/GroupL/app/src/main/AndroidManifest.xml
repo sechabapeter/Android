@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sechaba.groupl">
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.example.sechaba.groupl.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="com.example.sechaba.groupl.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-library
+        android:name="com.google.android.maps"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".Classes.ContactsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/backgr"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="icon">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".Classes.MyPushReciever"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.sechaba.groupl" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Classes.Backservice" />
+
+        <activity android:name=".Registration">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        >
+        <activity android:name=".Homescreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".Learner_data" />
+        <activity android:name=".Tuck_Shop" />
+        <activity android:name=".Reports">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Homescreen" />
+        </activity>
+        <activity android:name=".Admin_Master_Menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Homescreen" />
+        </activity>
+        <activity android:name=".CreateReportLearner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Report_Learner" />
+        </activity>
+        <activity android:name=".Report_Learner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity android:name=".Learner_Report_List" />
+        <activity android:name=".Maintenance_Report">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity android:name=".MaintenanceReportList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Maintenance_Report" />
+        </activity>
+        <activity android:name=".Calculator_View">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TuckShopAdmin" />
+        </activity>
+        <activity android:name=".View_Activity_Frag" />
+        <activity android:name=".SelectClass">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Homescreen" />
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".List_of_Learners" />
+        <activity android:name=".MastereUsers" />
+        <activity android:name=".ClassListLearners.Class_List_Learn">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SelectClass" />
+        </activity>
+        <activity android:name=".Edit_learner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".List_of_Learners" />
+        </activity>
+        <activity android:name=".Show_learner_data" />
+        <activity android:name=".Classes.SMS_SEND">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TuckShopAdmin" />
+        </activity>
+        <activity android:name=".Roles_Users">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserDataList" />
+        </activity>
+        <activity android:name=".UserDataList"/>
+
+        <activity android:name=".ClassListLearners.Class_TuckShop" />
+        <activity android:name=".TuckShopAdmin" />
+        <activity android:name=".ReportLearnerView">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CreateReportLearner" />
+        </activity>
+        <activity android:name=".WheatherFeeds">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".WebView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".GoogleMaps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".ResolveMaintenace">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MaintenanceReportList" />
+        </activity>
+        <activity android:name=".ShowUnresolvedProblems" />
+        <activity android:name=".ShowrResolved" />
+        <activity android:name=".ResolvedLearnerReport">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ReportLearnerView" />
+        </activity>
+        <activity android:name=".ShowResoledLearner" />
+        <activity android:name=".ShowUnResoledLearner" />
+
+        <service
+            android:name=".Classes.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".Weather">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

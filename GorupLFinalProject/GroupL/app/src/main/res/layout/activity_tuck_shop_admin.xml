@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sechaba.groupl.TuckShopAdmin">
+    <EditText
+        android:hint="@string/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView3" />
+    <ListView
+        android:id="@+id/tuck__shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="1pt"
+        android:layout_centerHorizontal="true"
+        android:background="@color/gray"
+        android:divider="@color/btn_color" />
+</LinearLayout>

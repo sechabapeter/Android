@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/learnerinf"
+        android:title="Reports Created"
+        android:icon="@drawable/unresolvedreports"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/deleteL"
+        android:title="Delete Learner Report"
+        android:icon="@drawable/unresolvedreports"
+        android:orderInCategory="100"
+        />
+</menu>

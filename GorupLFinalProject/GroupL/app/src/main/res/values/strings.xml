@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">GroupL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_email">please enter your email</string>
+    <string name="re_enterps">please re-enter password</string>
+    <string name="re_email">Enter your email address</string>
+    <string name="hint_password">please enter your password</string>
+    <string name="hint_confirm_password">please re-enter your password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="Listofleanrners">List of All Learners</string>
+    <string name="btnCap">UPLOAD IMAGE</string>
+    <string name="showlearner">LEARNER INFORMATION</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="admin_user">Admin users</string>
+    <string name="master_user">Master users</string>
+    <string name="btn_math_literacy">Math literacy class</string>
+    <string name="bt_sports">Sports/ Dance class</string>
+    <string name="btn_lifeskills">Life skills class</string>
+    <string name="btn_language">Language class</string>
+    <string name="btn_reading">Reading Class</string>
+
+
+    <string name="titless">Random news</string>
+
+    <string name="btn_flexi">Free time</string>
+    <string name="btn_reset">RESET PASSWORD</string>
+    <string name="hint_name">please enter your name</string>
+    <string name="hint_surname">please enter your surname</string>
+    <string name="tv_register">REGISTER USER</string>
+    <string name="tv_reset">RESET PASSWORD USER</string>
+    <string name="tv_login">LOGIN USER</string>
+    <string name="showall">Show All Reports</string>
+    <string name="upload">UPLOAD IMAGE</string>
+    <string name="btn_classes">CLASSES</string>
+    <string name="btn_reports">REPORTS</string>
+    <string name="btn_tuckshop">Tuck shop</string>
+    <string name="btn_admin_master">ADMIN/MASTER MENU</string>
+    <string name="tv_choose_what_to_report">Choose what to report:</string>
+    <string name="tv_maintenance">REPORT MAINTENANCE PROBLEM</string>
+    <string name="tv_r_leaner">REPORT LEARNER</string>
+    <string name="tv_chooser_user">Choose User</string>
+    <string name="tv_learner_data">Learner data</string>
+    <string name="tv_select_classes">Select class</string>
+    <string name="tv_choose_leaner">Choose a learner from the Sea Bundles class: </string>
+    <string name="tv_recomends">Recomendation: </string>
+    <string name="tv_notify">Enter title for report </string>
+    <string name="hint_enter_report">Enter data for report</string>
+    <string name="btn_submit_report">SUBMIT REPORT</string>
+    <string name="rbtn_for_information">Just for information</string>
+    <string name="rbtn_inform_parents">Inform parents</string>
+    <string name="rbtn_get_help">Get professional help</string>
+    <string name="tv_search">Search for learner......</string>
+
+    <string name="tv_change_user">Change the user role</string>
+    <string name="rbtn_none">None(No access to app)</string>
+    <string name="rbtn_educator">Educator(Basic access)</string>
+    <string name="rbtn_admin">Admin(Admin staff)</string>
+    <string name="rbtn_master">Master(Principal)</string>
+    <string name="btn_submit_changes">SUBMIT CHANGES</string>
+    <string name="tv_show">Show All Reports</string>
+
+    <string name="nameLearn">Name:</string>
+    <string name="new_learner">New Learner</string>
+    <string name="Edit">EDIT/UPDATE Learner Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="class_name">Class Name</string>
+    <string name="gender">Gender</string>
+    <string name="SaveLD">SAVE</string>
+    <string name="GENDER">Gender of the Learner</string>
+    <string name="race">Race</string>
+    <string name="date_of_birth">Date of Birth(yyyy/mm/dd)</string>
+    <string name="language_of_instruction">Language of Instruction</string>
+    <string name="id">ID/Birth Certificate No</string>
+    <string name="DAYS">Full Day/Half Day Learner</string>
+    <string name="enrolment_date">Enrolment Date(yyyy/mm/dd)</string>
+    <string name="address">Learner_Address</string>
+    <string name="mother_s_name">Mother\'s Name</string>
+    <string name="father_s_name">Father\'s Name</string>
+    <string name="mother_email">Mother\'s Email Address</string>
+    <string name="father_email">Father\'s Email Address</string>
+    <string name="mother_phone">Mother\'s Cell No</string>
+    <string name="father_phone">Father\'s Cell No</string>
+    <string name="family_doctor_s_name">Family Doctor\'s Name</string>
+    <string name="doctor_s_phone">Family Doctor\'s Cell NO</string>
+    <string name="family_s_medical_aid_name">Family\'s Medical Aid Name</string>
+    <string name="medical_aid_plan">Family\'s Medical Aid Plan</string>
+    <string name="medical_aid_number">Family\'s Medical Aid No</string>
+    <string name="learner_allergies">Learner\'s Allergies</string>
+    <string name="leaner_tuck_shop_balance">Learner\'s Tuck Shop Balance</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="classA">CLASS A</string>
+    <string name="classB">CLASS B</string>
+    <string name="classC">CLASS C</string>
+    <string name="classD">CLASS D</string>
+    <string name="classE">CLASS E</string>
+    <string name="classF">CLASS F</string>
+
+
+    <string name="OPEN">OPEN</string>
+    <string name="CLOSE">CLOSE</string>
+
+    <string-array name="spinner_Race">
+        <item>Black</item>
+        <item>White</item>
+        <item>Asian</item>
+        <item>Indian</item>
+        <item>Colored</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="days">
+        <item>Full Day</item>
+        <item>Half Day</item>
+
+    </string-array>
+
+    <string-array name="User_Roles">
+        <item>Master</item>
+        <item>Admin</item>
+        <item>Default</item>
+        <item>Non</item>
+    </string-array>
+
+
+    <string-array name="MaintenanceProblem">
+        <item>Broken Door</item>
+        <item>Broken Handler</item>
+        <item>Cracked window glass</item>
+        <item>Broken Lights</item>
+    </string-array>
+
+    <string-array name="spinner_maintenance">
+        <item>Broken Door</item>
+        <item>Broken Handler</item>
+        <item>Cracked window glass</item>
+        <item>Broken Lights</item>
+    </string-array>
+
+    <string-array name="spinner_ClassNames">
+        <item>classA</item>
+        <item>classB</item>
+        <item>classC</item>
+        <item>classD</item>
+        <item>classE</item>
+        <item>classF</item>
+    </string-array>
+
+    <string name="tv_created">Created:</string>
+    <string name="Selectclass">SELECT CLASS</string>
+    <string name="BTNSelectclass">VIEW CLASS</string>
+    <string name="classeschoose">Type Class Name</string>
+    <string name="genger">Choose Your Gender</string>
+    <string name="tv_update">Updated:</string>
+    <string name="tv_report">Report:</string>
+    <string name="tv_issue">Issue resolved:</string>
+    <string name="btn_10c">10c</string>
+    <string name="btn_20c">20c</string>
+    <string name="btn_50c">50c</string>
+    <string name="btn_r1">R1</string>
+    <string name="btn_r2">R2</string>
+    <string name="btn_r5">R5</string>
+    <string name="btn_submit_transaction">SUBMIT TRANSACTION</string>
+    <string name="btnreset_transction">RESET TRANSACTION</string>
+    <string name="tv_current_bal">Current balance:</string>
+    <string name="LOAD">LOADING APP......PLEASE WAIT!!</string>
+
+    <string name="google_maps_api_key">AIzaSyA7rfsMgQ4RKdsI8HkiY3nWSv4u3_5jwKo</string>
+
+
+    <string name="tv_current_transac">Current transaction:</string>
+    <string name="tv_after_transac">After transaction:</string>
+    <string-array name="spinner_maintenance_report">
+        <item>Show All Reports</item>
+        <item>Show resolved reports</item>
+        <item>Show unresolved reports</item>
+    </string-array>
+    <string name="title_activity_update">Update</string>
+</resources>

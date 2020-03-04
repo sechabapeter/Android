@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/moveingtext"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.User_Fragment">
+
+    <TextView
+        android:text="@string/tv_chooser_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_choose_user"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/textcorlig"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/tv_color"
+        android:id="@+id/spinner_user_role" />
+
+    <TextView
+        android:text="@string/tv_change_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/tv_change_user"
+        tools:text="@string/tv_change_user" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:text="@string/rbtn_none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/rbtn_none" />
+
+        <RadioButton
+            android:text="@string/rbtn_educator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rbtn_educator" />
+
+        <RadioButton
+            android:text="@string/rbtn_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rbtn_admin" />
+
+        <RadioButton
+            android:text="@string/rbtn_master"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rbtn_master" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:text="@string/btn_submit_changes"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/customise_btn"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit_changes" />
+</LinearLayout>

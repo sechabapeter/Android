@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_report__learner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.example.sechaba.groupl.Report_Learner">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_classes"
+        android:entries="@array/spinner_ClassNames"/>
+
+    <Button
+        android:id="@+id/classA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/customise_btn"
+        android:onClick="Classingreport"
+        android:text="@string/BTNSelectclass"
+        android:layout_below="@+id/sp_classes"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2500247f-f1ca-4029-8fc6-25f688f0f690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/libs/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/libs/additionnal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/libs/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/androidTest/java/com/example/sechaba/groupl/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/addusers-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/backgr-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/deleteuser-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/AdapterLearnerRe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/AdapterforReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/Learner_adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/MyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/TuckShopAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Adapter/UserAdpter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Admin_Master_Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Calculator_View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ClassListLearners/Class_List_Learn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ClassListLearners/Class_TuckShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/AppWidgets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/Backservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/CircleTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/ContactsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/EmailClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/LearnerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/MyPushReciever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/ReportClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/ReportLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/SMS_SEND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/TuckShopLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Classes/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/CreateReportLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Edit_learner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/Admin_Mater_Frag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/FirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/HomeFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/MainFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/MasterFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/SecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/SlidingFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/ThirdFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/User_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Fragments/View_Pager_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Homescreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Learner_Report_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Learner_data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/List_of_Learners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/MaintenanceReportList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Maintenance_Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/MastereUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ReportLearnerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Report_Learner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ResolveMaintenace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ResolvedLearnerReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Roles_Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/SelectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ShowResoledLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ShowUnResoledLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ShowUnresolvedProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Show_learner_data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/ShowrResolved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Splash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/TuckShopAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Tuck_Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/UserDataList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/View_Activity_Frag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/WebView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/java/com/example/sechaba/groupl/WheatherFeeds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/logout-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/me3-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/my_school-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/pre1-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/pre2-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/anim/left_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/anim/right_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/anim/rotate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/animator/fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/animator/multi_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/admin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/analytics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/beach.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/buttt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/call.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/calling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/camara.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/correct.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/create.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/create_learner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/create_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/created.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/customise_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/date.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/delete_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/despi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/edit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/emergency.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/galary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/googlemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/ic_lock_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/ic_power_settings_new_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/insertcoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/locker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/mail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/myguy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/notresolved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/offlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/opload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/pre4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/pre5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/redcross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/reset.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/resolved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/rolesset.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/selectwiget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/setroles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/setuserroles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/sponge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/tckdel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/tckem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/time.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/tp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/unresolvedreports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/uu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/widgets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/wrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/wrongsign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/drawable/yesco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_admin__master__menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_calculator__view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_class_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_class__tuck_shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_class_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_edit_learner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_educator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_google_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_homescreen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_learner__report__list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_learner_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_list_of__learners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_maintenance__report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_maintenancereport_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_mastere_users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_report__learner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_report_learner_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_reports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_resolve_maintenace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_resolved_learner_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_roles__users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_show_learner_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_show_resoled_learner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_show_un_resoled_learner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_show_unresolved_problems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_showr_resolved.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_sms__send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_tuck__shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_tuck_shop_admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_user_data_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_view___frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/activity_wheather_feeds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/alert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/coins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/customtoast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/datalearner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_show_welcome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_sliding.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_third.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/fragment_view__pager_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/headernav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/learner_rowlayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/listheader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/maintenance_rowlay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/notallowed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/password_reset.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/people.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/resolvedreports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/resolveissue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/row_learnereport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/row_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/topup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/tuchshop_rowlay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/user_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/users_rowlayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/viewpage_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/layout/widgets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/activity_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/activity_homescreen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/activity_list_of__learners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/activity_reports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/activity_tuck__shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/calculate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/maintenace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/masteruser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/pdflearner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/showlearner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/viewlearnerreport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/menu/whaetherandgoogle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/addusers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/deleteuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/me3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-hdpi/school_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-hdpi/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-mdpi/school_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-mdpi/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xhdpi/school_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xhdpi/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxhdpi/school_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxhdpi/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxxhdpi/school_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/mipmap-xxxhdpi/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/my_school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-hdpi/useredit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/addusers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/deleteuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/me3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/my_school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-mdpi/useredit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/addusers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/deleteuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/me3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/my_school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xhdpi/useredit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/addusers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/deleteuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/me3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/my_school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxhdpi/useredit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/addusers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/deleteuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/me3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/my_school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/mipmap-xxxhdpi/useredit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/res/xml/widget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/main/useredit-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/app/src/test/java/com/example/sechaba/groupl/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GorupLFinalProject/GroupL/~$nal Project - Horizontal Prototype.docx" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="41" />
+    <option name="y" value="2" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2500247f-f1ca-4029-8fc6-25f688f0f690" name="Default Changelist" comment="" />
+      <created>1583337664718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583337664718</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="41" y="2" width="1346" height="688" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32970452" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Performance" />
+    </layout>
+  </component>
+</project>

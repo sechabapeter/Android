@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sechaba.groupl.Fragments.HomeFrag">
+
+
+    <ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    app:srcCompat="@drawable/pre5"
+    android:id="@+id/imageView2" />
+
+    <Button
+    android:text="@string/btn_classes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/customise_btn"
+    android:id="@+id/btn_class"
+    android:onClick="Button2" />
+
+    <Button
+    android:text="@string/btn_tuckshop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/customise_btn"
+    android:id="@+id/btn_tuckshop"
+    android:onClick="Button2" />
+
+    <Button
+    android:text="@string/btn_reports"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/customise_btn"
+    android:id="@+id/btn_report"
+    android:onClick="Button2" />
+
+    <Button
+    android:text="@string/btn_admin_master"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/customise_btn"
+    android:id="@+id/btn_admin_master_menu"
+    android:onClick="Button2" />
+</LinearLayout>

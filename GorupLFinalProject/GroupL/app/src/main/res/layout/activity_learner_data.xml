@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_learner_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sechaba.groupl.Learner_data"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf,UselessParent">
+
+        <LinearLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/new_learner"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/firstNameL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/first_name" />
+
+            <EditText
+                android:id="@+id/lastNameLear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/last_name" />
+
+            <Spinner
+                android:id="@+id/sp_classes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sp_maintenance"
+                android:layout_marginTop="34dp"
+                android:entries="@array/spinner_ClassNames" />
+
+
+            <Spinner
+                android:id="@+id/sp_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sp_maintenance"
+                android:layout_marginTop="34dp"
+                android:entries="@array/gender" />
+
+
+            <Spinner
+                android:id="@+id/sp_Race"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_Race"
+                android:layout_marginTop="34dp"
+                android:entries="@array/spinner_Race" />
+
+
+            <EditText
+                android:id="@+id/datebirthL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/date_of_birth"
+               />
+
+            <EditText
+                android:id="@+id/languageLe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/language_of_instruction" />
+
+            <EditText
+                android:id="@+id/idNumberL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/id"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/sp_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_Race"
+                android:layout_marginTop="34dp"
+                android:entries="@array/days" />
+
+            <EditText
+                android:id="@+id/enrollDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/enrolment_date"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/addressLe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/motherLe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/mother_s_name" />
+
+            <EditText
+                android:id="@+id/fatherL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/father_s_name" />
+
+            <EditText
+                android:id="@+id/momEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/mother_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/dadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/father_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/momPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/mother_phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/dadPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/father_phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/namedoctor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/family_doctor_s_name" />
+
+            <EditText
+                android:id="@+id/doctorPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/doctor_s_phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/medAidname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/family_s_medical_aid_name" />
+
+            <EditText
+                android:id="@+id/medAidPlan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/medical_aid_plan" />
+
+            <EditText
+                android:id="@+id/medAidNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/medical_aid_number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/allergies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/learner_allergies" />
+
+            <EditText
+                android:id="@+id/balanceTuck"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/leaner_tuck_shop_balance"
+                 />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/customise_btn"
+                android:gravity="center"
+                android:onClick="SaveLearner"
+                android:text="@string/SaveLD"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
